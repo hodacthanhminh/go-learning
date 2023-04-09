@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	var sentence = "Hello world!"
+
+	fmt.Printf("This is message using template string: %s", sentence)
 }
